@@ -27,6 +27,7 @@ let strNum = String(num)
 
 //////// DataTypes ////////////
 
+
 //Primitive
 // ---> 7 types String, Number, Boolean, Null, Undefined, Symbol, BigInt
 
@@ -66,3 +67,23 @@ userTwo.age = 22
 
 console.log(userOne.age);
 console.log(userTwo.age);
+
+//////// Strings ////////////
+const myName = "Abdul Rehman"
+const myAge = 21
+
+//console.log(myName + age)
+console.log(`My name is ${myName} and age is ${myAge}`)
+const gameName = new String("PUBG")
+console.log(gameName[0])
+
+console.log(gameName.length)
+console.log(gameName.toLowerCase())
+console.log(gameName.charAt(3))
+console.log(gameName.indexOf('U'))
+const url = "https:abdul%20rehman.com"
+console.log(url.replace("%20", "-"))
+console.log(url)
+console.log(url.includes("-"))
+
+//////// Numbers ////////////
