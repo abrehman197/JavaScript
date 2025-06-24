@@ -1,14 +1,14 @@
 //Objects Literon
 
-// const myObj = {
-//     name: "Abdul Rehman",
-//     "full name": "Abdul Rehman Shahbaz",
-//     age: 18,
-//     location: "Gujranwala",
-//     email: "an@gmail.com",
-//     isLogged: false,
-//     lastLogin: ["Monday", "Friday"]
-// }
+const myObj = {
+    name: "Abdul Rehman",
+    "full name": "Abdul Rehman Shahbaz",
+    age: 18,
+    location: "Gujranwala",
+    email: "an@gmail.com",
+    isLogged: false,
+    lastLogin: ["Monday", "Friday"]
+}
 
 // // console.log(myObj.email);
 // // console.log(myObj["email"]);
@@ -25,14 +25,32 @@
 
 //// Object Singleton
 
-const myObj = new Object()
+// const myObj = new Object()
 //console.log(myObj);
 
-const obj1 = {1: "A", 2: "B"}
-const obj2 = {3: "C", 4: "D"}
+// const obj1 = {1: "A", 2: "B"}
+// const obj2 = {3: "C", 4: "D"}
 
 //const obj3 = Object.assign({}, obj1, obj2)
 //spread
-const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// const obj3 = {...obj1, ...obj2}
+// console.log(obj3);
 
+//console.log(obj1.hasOwnProperty('2'));
+
+// console.log(myObj.name);
+// Object de structure
+// const {name: myName} = myObj;
+// console.log(myName);
+
+
+//JSON
+// {
+//     "name": "Abdul Rehman",
+//     "age": 21,
+// }
+
+// [
+//     {},
+//     {}
+// ]
