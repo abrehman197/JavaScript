@@ -53,9 +53,13 @@ function getSecondValue(anyArr){
 }
 
 // console.log(getSecondValue(newArr))
-console.log(getSecondValue([2, 21, 31, 41]));
+// console.log(getSecondValue([2, 21, 31, 41]));
 
 
 //// Scope ////
 
 // var has a global scope let, const has block scope
+
+//Arrow Function
+const addTwo = (num1, num2) =>  num1 + num2
+console.log(addTwo(4,3));
